@@ -131,3 +131,20 @@ a {
 a:hover{
   color:#dadada;
 }
+.light img{
+  width:700px;
+  margin: auto;
+}
+.affiliate-img img{
+  width:100%
+}
+h5 .new-head{
+  text-align: left;
+}
+.affiliate-img img{
+  width:100%;
+}
+.affiliate-map img{
+  width:10px;
+}
+
