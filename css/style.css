@@ -6,11 +6,60 @@
  * Made By MaterializeCSS.com
  */
 
+
+html {
+    font-family: Archivo Narrow, Calibri, Trebuchet, sans-serif;
+}
+
+body{
+  background-color:white;
+  color:#8d8d8d;
+  font-size:20px;
+
+}
+
+h4{
+  background-color:#760000;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:white;
+}
+.specialness {
+  background-image: url("maps.png");
+}
+.custom-red{
+  color:#760000;
+}
+.custom-red-background{
+  background-color:#760000;
+}
+.custom-red-background:hover{
+  background-color:#666;
+  color:white;
+}
+.first{
+  padding-top:250px;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
 }
 
+.logo-img {
+  height:60px;
+}
+
+.custom-nav-gray{
+  color:#bdbdbd;
+
+}
+.custom-nav-gray:hover{
+  color:white;
+}
+.nav-color-change{
+  background-color:#760000;
+}
 p {
   line-height: 2rem;
 }
@@ -20,7 +69,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 700px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -54,4 +103,31 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.footer-color{
+  background-color:#760000 !important;
+}
+.img-maps{
+  width:100%;
+}
+.location{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.center h5{
+  margin-bottom:5px;
+}
+.center h5:hover{
+  color:#760000;
+}
+.locations-group{
+  margin-top:20px;
+}
+a {
+  color:#760000; 
+  text-decoration: none;
+}
+a:hover{
+  color:#dadada;
 }

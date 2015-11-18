@@ -5,7 +5,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
+  <title>Crossfit</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,30 +13,34 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
+  <nav class="nav-color-change" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo">
+        <img class="logo-img" src="Crossfit-logo.png">
+      </a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a class="custom-nav-gray" href="#1">ABOUT</a></li>
+        <li><a class="custom-nav-gray" href="#2">GETTING STARTED</a></li>
+        <li><a class="custom-nav-gray" href="#3">LOCATIONS</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="sc">Navbar Link</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
+  <div id="index-banner" class="parallax-container parallax-background-first">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <h1 class="header center grey-text text-lighten-5 first">Join the Movement</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12">Stop comparing yourself to others and start competing with yourself</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a href="#2" id="download-button" class="btn-large waves-effect waves-light custom-red-background">Get Started</a>
         </div>
         <br><br>
 
@@ -45,40 +49,20 @@
     <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
-
+  <div id="1">
   <div class="container">
-    <div class="section">
+    <div class="section center">
+      <h4>WHAT IS CROSSFIT?</h4>
+      <p class="left-align light">CrossFit is a unique strength and conditioning program. Our goal is to provide a program that will best prepare trainees for any contingency. Our program delivers a fitness that is committed to the individual experience.</p>
 
       <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/mlVrkiCoKkg" frameborder="0" allowfullscreen></iframe>
+       <p class="left-align light">CrossFit was developed by Coach Greg Glassman and was designed using a set of basic movements. Combinations of these movements make up the "Workout of the Day" or "WOD," as we like to call it. These basic moves highlight your personal fitness as a measurable increment, and CrossFit's individual nature is more than strength-building or weight-loss. </p>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
+        <p class="left-align light">Over the years, CrossFit has spread to communities all over the world, and thousands of athletes worldwide follow our workouts daily. So much so, that we have even developed the <a class="link-new" href="http://games.crossfit.com/">CrossFit Games</a>, our own CrossFit Olympics. In addition to our WODs being posted on our <a href="http://wwww.crosfit.com">daily blog</a>, there are also hundreds of CrossFit locations that provide a more community-oriented experience. Our goal is to help you achieve your fitness goals and become a better you. 
+        </p> <a href=""></a>
+      
+    </div>
     </div>
   </div>
 
@@ -87,7 +71,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">The last person who finishes is just as important as the first.</h5>
         </div>
       </div>
     </div>
@@ -97,11 +81,108 @@
   <div class="container">
     <div class="section">
 
-      <div class="row">
+      <div id="2" class="row">
         <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <h4>GETTING STARTED</h4>
+          <p class="left-align light">We offer two paths for someone new to the CrossFit methods: <br><br>
+            <b>1. Work out on your own using our WODs and videos as guideance, or <br>
+            2. Visit one of our <a href="https://map.crossfit.com/">licensed CrossFit affiliates worldwide</a> who will guide you through training to become familiar with the basic CrossFit movements. </p></b>
+
+            <p class="left-align light">If you decide to take on CrossFit without the guidance of a certified CrossFit trainer, we recommend three distinct approaches, depending on your fitness experience and available facilities. </p>
+
+            <p class="left-align light">1) If you are familiar with the basic CrossFit exercises then jump right in and start with the WOD (Workout of the Day). You may acquaint yourself with the movement through our available video clips. <em>This option is for those athletes with an extensive experience in athletic strength and conditioning.</em> </p>
+
+            <p class="left-align light">2) <em>If many of the exercises are unfamiliar to you and you are only modestly acquainted with elite athletic training,</em> we recommend that you follow the WOD and substitute other exercises for those where you don't have the equipment or skill for. Use the <a href="http://www.crossfit.com/cf-info/faq.html#Substitutions0"> Substitution Chart </a>for replacing exercises.</p>
+
+            <p class="left-align light">3) If most of the exercises are relatively or completely unknown to you, then we recommend that you begin learning the movements for a month or two until you can either perform our common exercises or have substitutions worked out for those movements under development. <em> This is a great place to begin for anyone with little or no experience with serious weightlifting or gymnastics. </em></p>
+
+
+            <p class="left-align light">For reference, our basic equipment list is as follows: olympic weight set, pull-up and dip bar, gymnastic rings, paralletes, plyometric boxes, Dynamax medicine ball, dumbbells, kettlebells, climbing rope, Concept II Rower, and a glute-ham developer. All or most of our exercises use this set of equipment. </em></p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">There is no race. There is no finish line. The goal is to upgrade YOU.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div id="3" class="row">
+        <div class="col s12 center">
+          <h4 class="locations">LOCATIONS</h4>
+          <img class="img-maps" src="maps2.png">
+          <div class="row locations-group">
+        <div class="col s12 m4">
+            <div class="icon-block">
+            <h5 class="center location"><a href="http://www.gatewaycrossfit.com">Gateway CrossFit Personal Training</a></h5>
+
+            <p class="light location">507 S Hanley Rd. <br> St. Louis, MO 63130</p>
+            </div><br>
+            <div class="icon-block">
+            <h5 class="center location"><a href="http://www.archcityfitness.com">Arch City CrossFit</a>/h5>
+
+            <p class="light location">9228 Manchester Rd. <br>St. Louis, MO 63144</p>
+            </div><br>
+             <div class="icon-block">
+            <h5 class="center location"><a href="http://www.crossfitstl.com">CrossFit Saint Louis</a></h5>
+
+            <p class="light location">1345 Strassner Dr. <br>Brentwood, MO 63144</p>
+            </div><br>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 class="center location"><a href="http://www/crossfitstl.com">CrossFit St. Louis</a></h5>
+            <p class="light location">732 Hanley Industrial Ct. <br> Brentwood, MO 63144</p>
+          </div><br>
+
+           <div class="icon-block">
+            <h5 class="center location"><a href="http://www.crossfit26.com">CrossFit 26</a></h5>
+            <p class="light location">8260 Brentwood Industrial Dr. <br>St. Louis, MO 63144</p>
+          </div><br>
+
+           <div class="icon-block">
+            <h5 class="center location"><a href="http://wwww.labgym.com">The Lab</a></h5>
+            <p class="light location">5035 Manchester Ave. <br>St. Louis MO 63110</p>
+          </div><br>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+
+            <h5 class="center location"><a href="http://wwww.crossfitcwe.com">OneThree Athletics</a></h5>
+
+            <p class="light location">625 N. Euclid Ave. #130 <br> St. Louis, MO 63108</p>
+          </div><br>
+
+          <div class="icon-block">
+
+            <h5 class="center location"><a href="http://wwww.crossfitcwe.com">CrossFit CWE</a></h5>
+
+            <p class="light location">4417 Olive St. <br> St. Louis, MO 63108</p>
+          </div><br>
+
+          <div class="icon-block">
+
+            <h5 class="center location"><a href="http://wwww.nosheltercrossfit.com">No Shelter CrossFit</a></h5>
+
+            <p class="light location">4160 Olive St. <br> St. Louis, MO 63108</p>
+          </div><br>
+        </div>
+      </div>
+
         </div>
       </div>
 
@@ -113,14 +194,14 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light"></h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="background4.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
+  <footer class="page-footer footer-color">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -155,7 +236,14 @@
       </div>
     </div>
   </footer>
-
+  <script type="text/javascript">
+  $('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 1000);
+    return false;
+    });
+  </script>
 
   <!--  Scripts-->
   <script src="js/materialize.js"></script>
