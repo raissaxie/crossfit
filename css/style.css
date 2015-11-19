@@ -148,4 +148,14 @@ h5 .new-head{
 .about-affiliation img{
   width:100%;
 }
+.footer-copyright{
+  font-size: 16px;
+  padding-left:215px;
+}
+.footer-copyright a{
+  color:gray;
+}
+.footer-copyright a:hover{
+  color:white;
+}
 
